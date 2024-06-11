@@ -29,7 +29,7 @@ A biblioteca `requests` foi utilizada para realizar o download do arquivo CSV da
 
 **1 - Clonar o repositório**
 ```
-git clone https://github.com/seuusuario/projetosemframework.git
+git clone https://github.com/leonardocae/projetosemframework.git
 cd projetosemframework
 ```
 **2 - Criar o ambiente virtual**
@@ -45,7 +45,14 @@ venv\Scripts\activate
 ```
 pip install -r requirements.txt
 ```
-**5 - Iniciar a aplicação**
+**5 - No app.py, modificar o diretório para salvar o arquivo localmente em sua máquina**
+```
+    # Salvar o arquivo CSV localmente
+    file_path = os.path.join(os.path.expanduser('~'), 'OneDrive', 'Área de Trabalho', 'projetoSemFramework', 'cad_cia_aberta.csv')
+    print(f"Arquivo CSV baixado em: {file_path}")
+```
+
+**6 - Iniciar a aplicação**
 ```
 python app.py
 ```

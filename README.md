@@ -1,7 +1,3 @@
-# Teste-Sparta
-Desafio Teste para Desenvolvedor Python - Sparta Fundos de Investimento
-
-
 ## Projeto
 
 O objetivo deste projeto é desenvolver uma aplicação web simples utilizando Flask e SQLite para listar companhias abertas e visualizar o histórico de uma companhia específica. A aplicação baixa os dados de um arquivo CSV hospedado na internet e os armazena em um banco de dados SQLite local.
